@@ -1,0 +1,71 @@
+.generallanding {
+    background-image: url('./Pics/dubai4.jpg');
+    background-repeat: no-repeat ;
+    background-size:  cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:100%;
+    height: 100vh;
+    box-sizing:border-box;
+    position: center;
+    text-align: center;
+    /* display:flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.personalimage {
+    background-image: url('./Pics/ale.jpeg');
+    background-size:  cover;
+    width:280px;
+    height: 280x;
+    border-radius: 700px;
+}
+
+.listlanding {
+   
+    position:relative;
+   left: 42%;
+   top: 5%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    /* background-color: rgba(207, 159, 1, 0.726); */
+    width: 350px;
+    height: auto;
+    border-radius: 40px;
+    
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Lowbarlanding {
+    position: absolute;
+    bottom: 0%;
+    width:100%;
+}
+
+html, body {
+    margin:0;
+    height:100%;
+    overflow:hidden
+  }
+  .buttonlanding {
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 12px;
+    border: 2px solid white;
+    /* color: rgb(105, 103, 103); */
+    color: rgb(199, 147, 3);
+    text-align: center;
+    height: 32px;
+    width: 130px;
+    font-size: medium;
+  }
+  .buttonlanding:hover {
+    background-color: white;
+    color: rgb(199, 147, 3);
+    height: 36px;
+    width: 149px;
+}
+.titlelanding {
+    color: rgb(199, 147, 3);
+}

@@ -1,0 +1,24 @@
+.cardportfolio {
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    color: rgb(199, 147, 3);
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 5px;
+    padding: 10px;
+}
+
+.photoportfolio{
+    width: 900px;
+    height: 400px;
+}
+
+.portfoliocardcontainer{
+    display: inline;
+    margin: 5px;
+   
+}
+
