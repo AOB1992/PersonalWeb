@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom"
 import "./Main.css" //IMPORT STYLES
 import ReactWhatsapp from 'react-whatsapp'; //IMPORT WHATSAPP
 //IMPORT COMPONENTS WHICK COMPOSE THIS COMPONENT
@@ -14,7 +15,10 @@ import salutations from "./Salutations.js"
 import cambridge from "./Pics/cambridge4.png"
  import cv from "./Pics/cv4.jpg"
  import henry from "./Pics/henry.png"
-
+ //IMPORT FILE TO DOWNLOAD
+ import filecv from "./Files/Resume.pdf"
+ import cambridgefile from "./Files/ENGLISH_FIRST_CERTIFICATE.pdf"
+ 
 
 const Main = () => {
 
@@ -30,9 +34,14 @@ const Main = () => {
 
                     <div className='maincertificates'>
                         <div className='submaincertificates'>
+                        <a  href={cambridgefile}  download="FIRST_CERTIFICATE_AOB"  target="_blank"  rel="noreferrer" >
                         <Card2 image={cambridge}></Card2>
-                        <Card2 image={cv}></Card2>
-                        <Card2 image={henry}></Card2>
+                                 </a>
+                       
+                        <a  href={filecv}  download="Resume_AOB"  target="_blank"  rel="noreferrer" >
+                                    <Card2 image={cv}></Card2>
+                                 </a>
+                        <Link to={{ pathname: "https://certificates.soyhenry.com/new-cert?id=45638f7141708eab6aec3f23f2e751df511dd4b3b102e443feb2ebbe54d3cefc" }} target="_blank"><Card2 image={henry}></Card2></Link>
                         </div>
                     </div>
                         
