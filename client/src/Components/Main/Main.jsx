@@ -18,6 +18,7 @@ import cambridge from "./Pics/cambridge4.png"
  //IMPORT FILE TO DOWNLOAD
  import filecv from "./Files/Resume.pdf"
  import cambridgefile from "./Files/ENGLISH_FIRST_CERTIFICATE.pdf"
+ import henryfile from "./Files/HENRY_CERTIFICATE.pdf"
  
 
 const Main = () => {
@@ -41,21 +42,21 @@ const Main = () => {
                         <a  href={filecv}  download="Resume_AOB"  target="_blank"  rel="noreferrer" >
                                     <Card2 image={cv}></Card2>
                                  </a>
-                        <Link to={{ pathname: "https://certificates.soyhenry.com/new-cert?id=45638f7141708eab6aec3f23f2e751df511dd4b3b102e443feb2ebbe54d3cefc" }} target="_blank"><Card2 image={henry}></Card2></Link>
+                        {/* <Link to={{ pathname: "https://certificates.soyhenry.com/new-cert?id=45638f7141708eab6aec3f23f2e751df511dd4b3b102e443feb2ebbe54d3cefc" }} target="_blank"><Card2 image={henry}></Card2></Link> */}
+                        <a  href={henryfile}  download="HENRY_CERTIFICATE_AOB"  target="_blank"  rel="noreferrer" >
+                            <Card2 image={henry}></Card2>
+                                 </a>
                         </div>
                     </div>
                         
 
                     <div className='maintextdiv'>
-                        <p></p>
+                        
                         <div className='maintext'>
                         <p className='maintextp' key="text1">{biotext}</p>
                         
                         </div>
-                        <div className='maintext'>
                         
-                        
-                        </div>
                     </div>
                 </div>
             <div className='lowbardiv'><Lowbar></Lowbar></div>
