@@ -6,6 +6,7 @@
         border-radius: 30px;
         opacity: 1;
         cursor:help;
+        box-sizing: border-box;
         
    
 }
@@ -15,6 +16,3 @@
     
 }
 
-.generalcard {
-    /* cursor:wait; */
-}

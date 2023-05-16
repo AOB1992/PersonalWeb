@@ -34,15 +34,21 @@
     
     font-family:'Courier New', Courier, monospace;
 }
+
 @media only screen and (max-width: 750px) {
     /* For mobile phones: */
     .generalcontact {
-      left: 3%;
+      left: 5%;
       float: left;
     }
     .carddivcontact{
         width: 100%;
         float: left;
+    }
+    .glb2 {
+        background-color: rgb(248, 2, 2);
+        visibility: hidden;
+        display: none;
     }
   }
 

@@ -21,20 +21,28 @@ import Card from "../Card/Card"
 const Lowbar = () => {
 
     return (
-        <div className="generallowbar">
+        <div className="glb">
+            
+            
+            <div className="glb">
             <Card image={js} itext='JS' key="js"></Card>
             <Card image={es6} itext='ES6' key="es6"></Card>
             <Card image={jquery} itext='JQUERY' key="jquery"></Card>
             <Card image={ajax} itext='AJAX' key="ajax"></Card>
             <Card image={html5} itext='HTML 5' key="html5"></Card>
             <Card image={css} itext='CSS' key="css"></Card>
-            <Card image={node} itext='NODE' key="node"></Card>
-            <Card image={react} itext='REACT' key="react"></Card>
-            <Card image={redux} itext='REDUX' key="redux"></Card>
-            <Card image={sql} itext='SQL' key="sql"></Card>
-            <Card image={postgre} itext='POSTGRE SQL' key="postgre"></Card>
-            <Card image={gitpic} itext='GITHUB' key="github"></Card>
-            <Card image={agile} itext='AGILE METODOLOGIES' key="agile"></Card>
+            </div>
+            <div className="glb2"> 
+            <Card className="carddiv2" image={node} itext='NODE' key="node"></Card> 
+            <Card className="carddiv2" image={react} itext='REACT' key="react"></Card>
+            <Card className="carddiv2" image={redux} itext='REDUX' key="redux"></Card>
+            <Card className="carddiv2" image={sql} itext='SQL' key="sql"></Card>
+            <Card className="carddiv2" image={postgre} itext='POSTGRE SQL' key="postgre"></Card>
+            <Card className="carddiv2" image={gitpic} itext='GITHUB' key="github"></Card>
+            <Card className="carddiv2" image={agile} itext='AGILE METODOLOGIES' key="agile"></Card>
+            </div>
+           
+            
         </div>
     )
 }
