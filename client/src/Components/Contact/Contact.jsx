@@ -6,8 +6,8 @@ import ReactWhatsapp from 'react-whatsapp'; //IMPORT WHATSAPP
 import Lowbar from "../Lowbar/Lowbar"
 import Topbar from "../Topbar/Topbar"
 //
-import foto from "../Topbar/ale3.jpg" //IMPORT LEFT SIDE PHOTO
-import foto2 from "../Topbar/ale4.jpg" //IMPORT COLOUR SIDE PHOTO
+import foto from "../Topbar/Pics/ale3.jpg" //IMPORT LEFT SIDE PHOTO
+import foto2 from "../Topbar/Pics/ale4.jpg" //IMPORT COLOUR SIDE PHOTO
 import Card2 from "../Card2/Card2" //IMPORT CARD COMPONENT
 import Cardwh from "../Cardwh/Cardwh" //IMPORT CARD COMPONENT
 //IMPORT PHOTOS FOR CARDS

@@ -8,7 +8,7 @@
     background-repeat:repeat-x;
     
     width:100%;
-    height: 107px;
+    height:fit-content;
     box-sizing:border-box;
     /* position: center; */
     text-align: center;

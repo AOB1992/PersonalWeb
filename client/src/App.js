@@ -9,12 +9,16 @@ import Main from "./Components/Main/Main";
 import Contact from "./Components/Contact/Contact";
 import Stack from "./Components/Stack/Stack";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Topbar from "./Components/Topbar/Topbar";
+import Lowbar from "./Components/Lowbar/Lowbar"
 
 function App() {
   return (
    
     <div className="App">
+      
       <BrowserRouter>
+      
       <Route exact path="/main" component={Main} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/stack" component={Stack} />

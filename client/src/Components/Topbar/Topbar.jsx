@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ReactWhatsapp from 'react-whatsapp'; //IMPORT WHATSAPP
 import "./Topbar.css" //IMPORT STYLES
 import { Link } from "react-router-dom"
-import foto from "./ale3.jpg" //IMPORT LEFT SIDE PHOTO
-import foto2 from "./ale4.jpg" //IMPORT COLOUR SIDE PHOTO
+import foto from "./Pics/ale3.jpg" //IMPORT LEFT SIDE PHOTO
+import foto2 from "./Pics/ale4.jpg" //IMPORT COLOUR SIDE PHOTO
 import Card2 from "../Card2/Card2" //IMPORT CARD COMPONENT
 import Cardwh from "../Cardwh/Cardwh" //IMPORT CARD COMPONENT
 //IMPORT PHOTOS FOR CARDS

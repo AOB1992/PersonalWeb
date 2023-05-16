@@ -34,6 +34,17 @@
     
     font-family:'Courier New', Courier, monospace;
 }
+@media only screen and (max-width: 750px) {
+    /* For mobile phones: */
+    .generalcontact {
+      left: 0%;
+      float: left;
+    }
+    .carddivcontact{
+        width: 100%;
+        float: left;
+    }
+  }
 
 .generalmain{
     background-image: url('./Pics/dubai2.jpg');
