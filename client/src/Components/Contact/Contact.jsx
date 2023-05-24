@@ -22,7 +22,7 @@ import portfolio5 from "../Topbar/Pics/portfolio9.png"
 const Contact = () => {
 
     return (
-        <div className='generalmain'>
+        <div className='xgeneralcontactmainx'>
              <div className='topbardiv'><Topbar></Topbar></div>
                      <div className='generalcontact'>
                      <div className='carddivcontact'>

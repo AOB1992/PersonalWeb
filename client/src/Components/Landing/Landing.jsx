@@ -8,8 +8,7 @@ const Landing = () => {
 
     return (
         <div className="generallanding">
-            <p></p>
-            <p></p>
+            <div className="Lowbarlanding"><Lowbar className="Lowbarlanding"></Lowbar> </div>
             <div className='listlanding'>
                 <h1 className='titlelanding'>ALEJANDRO </h1>
                 <h1 className='titlelanding'>FULL-STACK DEVELOPER</h1>
@@ -20,7 +19,7 @@ const Landing = () => {
                 <h1></h1>
                 <p></p>
             </div>
-            <div className="Lowbarlanding"><Lowbar className="Lowbarlanding"></Lowbar> </div>
+            
                 
         </div>
     )
