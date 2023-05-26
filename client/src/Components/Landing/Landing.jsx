@@ -9,6 +9,7 @@ const Landing = () => {
     return (
         <div className="generallanding">
             <div className="Lowbarlanding"><Lowbar className="Lowbarlanding"></Lowbar> </div>
+            
             <div className='listlanding'>
                 <h1 className='titlelanding'>ALEJANDRO </h1>
                 <h1 className='titlelanding'>FULL-STACK DEVELOPER</h1>
