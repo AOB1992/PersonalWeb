@@ -87,11 +87,7 @@ html, body {
 }
 
 
-@media only screen and (min-height: 1200px) {
-    .generallanding{
-        height: 1600px;
-    }
-}
+
 @media only screen and (min-height: 850px) {
     .generallanding{
         height: 1000px;
@@ -101,5 +97,10 @@ html, body {
 @media only screen and (min-height: 1000px) {
     .generallanding{
         height: 1200px;
+    }
+}
+@media only screen and (min-height: 1200px) {
+    .generallanding{
+        height: 1600px;
     }
 }
