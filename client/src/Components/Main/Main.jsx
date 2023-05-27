@@ -24,7 +24,7 @@ import cambridge from "./Pics/cambridge4.png"
 const Main = () => {
 
     return (
-        <div className='generalmain'>
+        <div className='divgeneralmain'>
             <div className='topbardiv'><Topbar></Topbar></div>
 
                 <div className='maindisplay'>
@@ -35,28 +35,24 @@ const Main = () => {
 
                     <div className='maincertificates'>
                         <div className='submaincertificates'>
-                        <a  href={cambridgefile}  download="FIRST_CERTIFICATE_AOB"  target="_blank"  rel="noreferrer" >
-                        <Card2 image={cambridge}></Card2>
+                        <a  className='submaincertificates' href={cambridgefile}  download="FIRST_CERTIFICATE_AOB"  target="_blank"  rel="noreferrer" >
+                        <Card2 image={cambridge} className='submaincertificates' ></Card2>
                                  </a>
                        
-                        <a  href={filecv}  download="Resume_AOB"  target="_blank"  rel="noreferrer" >
-                                    <Card2 image={cv}></Card2>
+                        <a  className='submaincertificates' href={filecv}  download="Resume_AOB"  target="_blank"  rel="noreferrer" >
+                                    <Card2 className='submaincertificates' image={cv}></Card2>
                                  </a>
                         {/* <Link to={{ pathname: "https://certificates.soyhenry.com/new-cert?id=45638f7141708eab6aec3f23f2e751df511dd4b3b102e443feb2ebbe54d3cefc" }} target="_blank"><Card2 image={henry}></Card2></Link> */}
-                        <a  href={henryfile}  download="HENRY_CERTIFICATE_AOB"  target="_blank"  rel="noreferrer" >
-                            <Card2 image={henry}></Card2>
+                        <a  className='submaincertificates' href={henryfile}  download="HENRY_CERTIFICATE_AOB"  target="_blank"  rel="noreferrer" >
+                            <Card2 className='submaincertificates' image={henry}></Card2>
                                  </a>
                         </div>
                     </div>
-                        
-
+    
                     <div className='maintextdiv'>
-                        
                         <div className='maintext'>
                         <p className='maintextp' key="text1">{biotext}</p>
-                        
-                        </div>
-                        
+                         </div>
                     </div>
                 </div>
             <div className='lowbardiv'><Lowbar></Lowbar></div>
