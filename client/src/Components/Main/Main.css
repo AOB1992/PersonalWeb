@@ -106,7 +106,7 @@
 
 .lowbardiv {
     width: 100%;
-    bottom: 0px;
+    bottom: 0%;
     position: absolute;
     
 }
@@ -115,7 +115,7 @@
     background-image: url('./Pics/dubai2.jpg');
     /* background-repeat: no-repeat ; */
     background-size:  cover;
-    background-color: brown;
+    /* background-color: brown; */
     background-position:center center;
     width: 450px;
     height: 1700px;
