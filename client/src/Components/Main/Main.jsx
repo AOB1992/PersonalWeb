@@ -30,7 +30,10 @@ const Main = () => {
                 <div className='maindisplay'>
                     
                     <div className='divpersonalimagemain'>
+                        <p></p>
+                        {/* <h6>AOB</h6> */}
                     <img src={foto} alt="foto" className='personalimagemain'></img>
+                    
                     </div>
 
                     <div className='maincertificates'>

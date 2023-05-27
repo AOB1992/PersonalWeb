@@ -1,17 +1,23 @@
 
 .divpersonalimagemain{
     position: relative;
+    /* background-color: rgba(0, 0, 0, 0.788); */
+    border-radius: 75px;
+    /* width: 340px;
+    height: 450px; */
+    /* opacity: 0.7; */
     left: 14%;
     top: 5%;
-    
     justify-content: left;
+    /* align-items: center;
+    justify-content: center; */
 }
 .personalimagemain{
     width:280px;
     height: 280x;
     background-size: cover;
     border-radius: 700px;
-    /* top: 25%; */
+    top: 25%; 
     position: absolute;
     left: 0%;
     top:5%;
@@ -21,25 +27,28 @@
     position: relative;
     left: 17%;
     top: 33%;
-    width:200px;
-    height: 200px;
+    width:fit-content;
+    height: auto;
 }
 .submaincertificates{
+    background-color: rgba(0, 0, 0, 0.788);
+    opacity: 0.7;
     position: relative;
+    border-radius: 20px;
     left: 5%;
     /* top: 25%; */
-    width:200px;
-    height: 200px;
+    width:fit-content;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
 .manitextdiv{
     position: relative;
-    justify-content: left;
-    align-items: left;
+    /* justify-content: left;
+    align-items: left; */
     height: auto;
     width: 800px;
-    top: 50%;
+    top:90%;
     /* border-width: 20px; */
     background-color: rgba(0, 0, 0, 0.726);
     padding-left: 10px;
@@ -50,7 +59,7 @@
    
         position:relative;
        /* left: 25%;  */
-       top: 50%;
+       top: 65%;
         align-items: left;
         justify-content: left;
         background-color: rgba(0, 0, 0, 0.726);
@@ -167,7 +176,7 @@ html, body {
 @media only screen and (min-width: 600PX) {
     .maintext{
         width: 600px;
-        top: 70%
+        top: 95%
     }
     .divpersonalimagemain{
         left: 29%;
@@ -181,7 +190,7 @@ html, body {
 @media only screen and (min-width: 836PX) {
     .maintext{
         width: 800px;
-        top: 87%
+        top: 120%
     }
     .divpersonalimagemain{
         left: 35%;
@@ -199,7 +208,7 @@ html, body {
     }
     .maintext{
         width: 800px;
-        top: 87%;
+        top: 120%;
         left: 15%;
     }
     .divpersonalimagemain{
@@ -215,7 +224,7 @@ html, body {
 @media only screen and (min-width: 1572px) {
     .maintextdiv{
         position: relative;
-        top: -10%;
+        top: 0%;
         /* left: 35%; */
         /* width: 800px; */
     }
