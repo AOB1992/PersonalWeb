@@ -1,0 +1,248 @@
+
+.divpersonalimagemain{
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.788); */
+    border-radius: 75px;
+    /* width: 340px;
+    height: 450px; */
+    /* opacity: 0.7; */
+    left: 14%;
+    top: 5%;
+    justify-content: left;
+    /* align-items: center;
+    justify-content: center; */
+}
+.personalimagemain{
+    width:280px;
+    height: 280x;
+    background-size: cover;
+    border-radius: 700px;
+    top: 25%; 
+    position: absolute;
+    left: 0%;
+    top:5%;
+    
+}
+.maincertificates{
+    position: relative;
+    left: 17%;
+    top: 33%;
+    width:fit-content;
+    height: auto;
+}
+.submaincertificates{
+    background-color: rgba(0, 0, 0, 0.788);
+    opacity: 0.7;
+    position: relative;
+    border-radius: 20px;
+    left: 5%;
+    /* top: 25%; */
+    width:fit-content;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.manitextdiv{
+    position: relative;
+    /* justify-content: left;
+    align-items: left; */
+    height: auto;
+    width: 800px;
+    top:90%;
+    /* border-width: 20px; */
+    background-color: rgba(0, 0, 0, 0.726);
+    padding-left: 10px;
+
+}
+.maintext{
+   
+   
+        position:relative;
+       /* left: 25%;  */
+       top: 65%;
+        align-items: left;
+        justify-content: left;
+        background-color: rgba(0, 0, 0, 0.726);
+        /* background-color: rgba(207, 159, 1, 0.726); */
+        width: 400px;
+        height: auto;
+        border-radius: 40px;
+        color: rgb(243, 242, 239);
+        /* color: rgb(199, 147, 3); */
+        font-family:'Courier New', Courier, monospace;
+        text-align:justify;
+        padding: 10px;
+}
+
+.maindisplay{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:left
+}
+
+/* .maincertificates{
+    position: relative;
+    top:50%;
+    left: 10%;
+    width: auto;
+}
+.submaincertificates{
+    position: relative;
+    top:45%;
+    left: 10%;
+    width: auto;
+} */
+.maintextp{
+   
+}
+
+
+
+.topbardiv {
+    width: 100%;
+    display: flex;
+}
+
+.lowbardiv {
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+    
+}
+
+.divgeneralmain{
+    background-image: url('./Pics/dubai2.jpg');
+    /* background-repeat: no-repeat ; */
+    background-size:  cover;
+    /* background-color: brown; */
+    background-position:center center;
+    width: 450px;
+    height: 1700px;
+    /* box-sizing:border-box; */
+    /* position: center; */
+    /* text-align: center; */
+    /* display:flex; */
+    flex-direction: column;
+    /* align-items:flex-start; */
+}
+
+.listlanding {
+   
+    display:list-item;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    /* background-color: rgba(207, 159, 1, 0.726); */
+    width: 350px;
+    height: auto;
+    border-radius: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+html, body {
+    /* margin:0;
+    height:100%; */
+    overflow:scroll
+  }
+  .buttonlanding {
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 12px;
+    border: 2px solid white;
+    /* color: rgb(105, 103, 103); */
+    color: rgb(199, 147, 3);
+    text-align: center;
+    height: 32px;
+    width: 130px;
+    font-size: medium;
+  }
+  .buttonlanding:hover {
+    background-color: white;
+    color: rgb(199, 147, 3);
+    height: 36px;
+    width: 149px;
+}
+.titlelanding {
+    color: rgb(199, 147, 3);
+}
+
+/* // THIS ENLARGES THE WIDTH OF THE BACKGROUND IMAGE */
+@media only screen and (min-width: 451px) { 
+    .divgeneralmain{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600PX) {
+    .maintext{
+        width: 600px;
+        top: 95%
+    }
+    .divpersonalimagemain{
+        left: 29%;
+        top: 5%;
+    }
+    .maincertificates{
+        left: 31%;
+        top: 33%;
+    }
+}
+@media only screen and (min-width: 836PX) {
+    .maintext{
+        width: 800px;
+        top: 120%
+    }
+    .divpersonalimagemain{
+        left: 35%;
+        top: 5%;
+    }
+    .maincertificates{
+        left: 38%;
+        top: 33%;
+    }
+}
+@media only screen and (min-width: 1192px) {
+    .manitextdiv{
+        top: 0%;
+        position: relative;
+    }
+    .maintext{
+        width: 800px;
+        top: 120%;
+        left: 15%;
+    }
+    .divpersonalimagemain{
+        left: 38%;
+        top: 5%;
+      
+    }
+    .maincertificates{
+        left: 40%;
+        top: 33%;
+    }
+}
+@media only screen and (min-width: 1572px) {
+    .maintextdiv{
+        position: relative;
+        top: 0%;
+        /* left: 35%; */
+        /* width: 800px; */
+    }
+    .maintext{
+        width: 800px;
+        top: 0%;
+        left: 35%;
+    }
+    .divpersonalimagemain{
+        left: 14%;
+        top: 5%;
+      
+    }
+    .maincertificates{
+        left: 15%;
+        top: 33%;
+    }
+    /* .divgeneralmain {
+        height: 1700px;
+    } */
+}

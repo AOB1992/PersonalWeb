@@ -19,10 +19,10 @@ import cambridge from "./Pics/cambridge4.png"
  import filecv from "./Files/Resume.pdf"
  import cambridgefile from "./Files/ENGLISH_FIRST_CERTIFICATE.pdf"
  import henryfile from "./Files/HENRY_CERTIFICATE.pdf"
- 
+ import filevideo from "./Interview.mp4"
 
 const Main = () => {
-
+   
     return (
         <div className='divgeneralmain'>
             <div className='topbardiv'><Topbar></Topbar></div>
@@ -54,7 +54,12 @@ const Main = () => {
     
                     <div className='maintextdiv'>
                         <div className='maintext'>
-                        <p className='maintextp' key="text1">{biotext}</p>
+                        {/* <p className='maintextp' key="text1">{biotext}</p> */}
+                        <video className="video" controls width="800px" height="500px">
+                        {/* <source src="./Interview.mp4" type="video/webm" /> */}
+                        <source src={filevideo} type="video/mp4" />
+                        Sorry
+                        </video>
                          </div>
                     </div>
                 </div>
