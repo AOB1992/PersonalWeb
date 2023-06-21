@@ -52,7 +52,8 @@
     align-items: left; */
     height: auto;
     width: 800px;
-    top:90%;
+    top:150%;
+    left: 3%;
     /* border-width: 20px; */
     background-color: rgba(0, 0, 0, 0.726);
     padding-left: 10px;
@@ -63,7 +64,8 @@
    
         position:relative;
        /* left: 25%;  */
-       top: 65%;
+       top: 110%;
+       left: 3%;
         align-items: left;
         justify-content: left;
         background-color: rgba(0, 0, 0, 0.726);
@@ -179,8 +181,9 @@ html, body {
 
 @media only screen and (min-width: 600PX) {
     .maintext{
-        width: 600px;
-        top: 95%
+        /* width: 600px; */
+        top: 100%;
+        left: 20%
     }
     .divpersonalimagemain{
         left: 29%;
@@ -193,8 +196,9 @@ html, body {
 }
 @media only screen and (min-width: 836PX) {
     .maintext{
-        width: 800px;
-        top: 120%
+        /* width: 800px; */
+        top: 120%;
+        left: 29%
     }
     .divpersonalimagemain{
         left: 35%;
@@ -211,9 +215,9 @@ html, body {
         position: relative;
     }
     .maintext{
-        width: 800px;
+        /* width: 800px; */
         top: 120%;
-        left: 15%;
+        left: 35%;
     }
     .divpersonalimagemain{
         left: 38%;
@@ -236,6 +240,9 @@ html, body {
         width: 800px;
         top: 0%;
         left: 35%;
+    }
+    .video{
+        width: 800px;
     }
     .divpersonalimagemain{
         left: 14%;

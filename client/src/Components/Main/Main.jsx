@@ -55,7 +55,7 @@ const Main = () => {
                     <div className='maintextdiv'>
                         <div className='maintext'>
                         {/* <p className='maintextp' key="text1">{biotext}</p> */}
-                        <video className="video" controls width="800px" height="500px">
+                        <video className="video" controls width="400px" height="500px">
                         {/* <source src="./Interview.mp4" type="video/webm" /> */}
                         <source src={filevideo} type="video/mp4" />
                         Sorry
