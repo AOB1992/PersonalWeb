@@ -29,6 +29,7 @@
     top: 33%;
     width:fit-content;
     height: auto;
+    z-index:1
 }
 .submaincertificates{
     background-color: rgba(0, 0, 0, 0.788);
@@ -41,6 +42,7 @@
     height: auto;
     display: flex;
     justify-content: space-between;
+    z-index:1
 }
 .manitextdiv{
     position: relative;
@@ -52,7 +54,8 @@
     /* border-width: 20px; */
     background-color: rgba(0, 0, 0, 0.726);
     padding-left: 10px;
-
+    z-index:2
+ s
 }
 .maintext{
    
@@ -205,6 +208,7 @@ html, body {
     .manitextdiv{
         top: 0%;
         position: relative;
+        
     }
     .maintext{
         width: 800px;
@@ -223,10 +227,11 @@ html, body {
 }
 @media only screen and (min-width: 1572px) {
     .maintextdiv{
-        position: relative;
+        position: absolute;
         top: 0%;
-        /* left: 35%; */
+        left: 35%;
         /* width: 800px; */
+        height: 100px;
     }
     .maintext{
         width: 800px;

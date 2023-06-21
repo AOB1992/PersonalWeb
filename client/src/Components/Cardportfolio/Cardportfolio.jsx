@@ -22,7 +22,7 @@ const Cardportfolio = (props) => {
             <div className="portfoliocardcontainer">
             
             <Link to={linkobject2} target="_blank"><Card2 image={github}></Card2></Link>
-            <Link to={linkobject} target="_blank"><Card2 image={photolink}></Card2></Link>
+            {/* <Link to={linkobject} target="_blank"><Card2 image={photolink}></Card2></Link> */}
             </div>
             <h4 className="portfoliotext">PROYECT TYPE: {props.type}</h4>
             <h4 className="portfoliotext">TECHS USED: {props.techs}</h4>
